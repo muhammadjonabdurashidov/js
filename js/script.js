@@ -1,14 +1,11 @@
-var alert_info = alert("xush kelibsiz");
+var alert_info = alert("Diskotekamizga xush kelibsiz!");
 
-var name = prompt("ismingiz" , "Muhammadjon");
+var your_age = prompt("Yoshingiz nechida");
 
-var your_last_name = prompt("familiyangiz" , "Abdurashidov")
+var minAge = 16;
 
-var address = prompt("qayerliksiz" , "andijon")
-
-var your_profession = prompt("kasbingiz" , "dasturchi");
-
-var info_confirm = confirm("rahmat .^.");
-
-
-console.log(`foydalanuvchining ismi: ${name}. foydalanuvchining familiyasi: ${your_last_name}.           yashash joyingiz: ${address}.                                              kasbingiz: ${your_profession}`);
+if (alert_info >= minAge) {
+  alert ("diskotega kirishingiz mumkun");
+} else {
+  alert("siz 16 yoshga tolmagansiz!");
+};
