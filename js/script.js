@@ -4,7 +4,7 @@ var your_age = prompt("Yoshingiz nechida");
 
 var minAge = 16;
 
-if (alert_info >= minAge) {
+if (your_age >= minAge) {
   alert ("diskotega kirishingiz mumkun");
 } else {
   alert("siz 16 yoshga tolmagansiz!");
